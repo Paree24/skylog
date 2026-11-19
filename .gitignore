@@ -1,0 +1,17 @@
+# build outputs (the app binary is published as a release asset instead)
+.build-venv/
+build/
+dist/
+*.spec
+
+# your observations, saved places and settings never go into the repo
+observations/
+
+# python / editor noise
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.vscode/
+.idea/
+.DS_Store
