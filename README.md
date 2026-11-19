@@ -83,6 +83,10 @@ tests/                  python3 -m unittest discover tests
 * City presets use *standard* UTC offsets. During daylight saving time, add 1 to the UTC offset by hand.
 * Limiting magnitude is an empirical model (Bortle class → zenith NELM, plus twilight, moonlight and extinction). Treat it as a guide; real conditions vary.
 
+## License
+
+Skylog is released under the [BSD 3-Clause License](LICENSE). The bundled data and font keep their own licenses, listed below.
+
 ## Credits
 
 * Star, constellation and deep-sky data: [d3-celestial](https://github.com/ofrohn/d3-celestial) by Olaf Frohn, BSD-3-Clause ([`data/raw/LICENSE-d3-celestial.txt`](data/raw/LICENSE-d3-celestial.txt)). It is derived from the Hipparcos catalogue, IAU constellation lines, and the Messier and NGC catalogues.
